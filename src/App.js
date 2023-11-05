@@ -5,10 +5,10 @@ import Banner from './Banner';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
      <Banner/>
       <Row
-        title="NETFLIX ORIGINAL"
+        title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
       />

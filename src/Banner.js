@@ -19,8 +19,8 @@ function Banner() {
 
     console.log(movie)
 
-    function truncate(str, n){
-        return str?.length > n ? str.substr(0, n-1) + "..." : str;
+    function truncate(str, n) {
+        return str?.length > n ? str.substr(0, n - 1) + "..." : str;
     }
 
     return (
@@ -46,7 +46,7 @@ function Banner() {
                     {truncate(movie?.overview, 150)}
                 </h1>
             </div>
-
+            <div className='banner--fadeBottom' />
         </header>
     );
 }
